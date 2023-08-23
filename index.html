@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nithin's Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #f8f8f8;
+            background-image: url('https://th.bing.com/th/id/R.7df56fd874383e1aa54954f3b8659a31?rik=ZcJpWiOrKebGQQ&riu=http%3a%2f%2fmedia.istockphoto.com%2fvectors%2fabstract-gray-background-for-design-vector-id489731478%3fk%3d6%26m%3d489731478%26s%3d170667a%26w%3d0%26h%3d0q6SvBx09qL1FCjmsEC0viBn4nZitz81kHKakUdtUP0%3d&ehk=3vr0o4AKlC7KPszmh4106teBQ9D3NUVUjr8ruUxmwA4%3d&risl=&pid=ImgRaw&r=0'); /* Replace with your image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color:#333;
+            font-size: large;
+        }
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li{
+            list-style: none;
+            text-decoration: none;
+            margin:0 30px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        nav ul li a:hover{
+          color: lightcyan;
+          font-size: 1.5rem;
+        }
+        .left{
+            font-size: 1.7rem;
+            color: white;
+            
+        }
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+        }
+        .firstSection div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 3.5rem;
+             margin: 70px; 
+             width: 250px;
+        }
+        .rightSection{
+            width: 50%;
+        }
+        .rightSection img {
+            width: 90%;
+            margin: 50px 0;
+        }
+        table {
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        }
+
+    th {
+    background-color: #f2f2f2;
+    }
+    footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        footer a {
+            color: lightcyan;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Nithin Kodithala's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class = "firstSection">
+            <div class ="leftSection"> HI, MY Name is Nithin Kodithala
+                I Am A Web Developer And A Competitive Programmer 
+                <br>
+                <a href="Resume-Nithin-kodithyala (1).pdf" ><button>MY RESUME</button></a>
+                <a href="mailto:kodithyalanithin153@gmail.com"><button>HIRE ME</button></a>
+            </div>
+            <div class ="rightSection">
+                <img src="1.png" alt="">
+            </div>
+        </section>
+    </main> 
+    <br> <br>
+     <table>
+        <tr>
+          <th colspan="4">Technologies And Skills</th>
+        </tr>
+        <tr>
+          <td>
+            <table width="85%" border="1" align="center">
+            </table>
+          </td>
+          <td>
+            <img src="R (1).png" width="15%"><br>
+            <font size="5">Web Development</font><br>
+            <font size="3">Web development refers to the creating, building, and maintaining of websites.
+              It includes aspects such as web design, web publishing, web programming, and database management.
+              i have mastered Html & css.</font><br>
+          </td>
+          <td>
+            <img src="OIP (3).jpeg" width="25%"><br>
+            <font size="5">Machine Learning</font><br>
+            <font size="3">Machine Learning is the field of study that gives computers the capability to learn without being explicitly programmed.
+                Machine Learning Using Python.
+            </font><br>
+          </td>
+          <td>
+            <img src="coding-clipart-student.png" width="15%"><br>
+            <font size="5">Competitive Programming</font><br>
+            <font size="3">Coding deals with writing code in a language understood by both machines and humans.
+              The main aim of coding is to provide communication between humans and computers.
+              I Mastered Java And Data Structures</font>
+          </td>
+        </tr>
+      </table>       
+      <footer>
+        <p>All Rights Reserved &copy; 2023 Nithin Kodithala</p>
+        <p>Contact: <a href="mailto:kodithyalanithin153@gmail.com">kodithyalanithin153@gmail.com</a></p>
+    </footer>
+</body>
+</html>
